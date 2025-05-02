@@ -1,9 +1,0 @@
----
-
-- name: creating user in client1
-  hosts: all
-  tasks:
-   - name: cresting testuser1
-     user:
-       name: Testuser1
-       shell: /bin/bash
